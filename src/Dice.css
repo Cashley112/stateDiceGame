@@ -1,0 +1,16 @@
+.Dice-main {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Dice-die {
+    margin: 3rem;
+}
+
+.Dice-button {
+    background-color: violet;
+    color: white;
+    height: 50px;
+    width: 250px;
+}
