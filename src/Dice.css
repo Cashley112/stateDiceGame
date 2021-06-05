@@ -1,16 +1,27 @@
-.Dice-main {
-    display: inline-flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+.Dice {
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 100vh;
 }
 
-.Dice-die {
-    margin: 3rem;
+.Dice-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .Dice-button {
-    background-color: violet;
+    background-color: black;
+    width: 30em;
+    padding: 1.5em;
+    border: 0px;
+    border-radius: 10px;
     color: white;
-    height: 50px;
-    width: 250px;
+    margin-top: 3em;
+    align-self: center;
+}
+
+.Dice-button:hover {
+    background-color: darkslateblue;
+    cursor: pointer;
 }
